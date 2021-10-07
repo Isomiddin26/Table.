@@ -1,0 +1,16 @@
+*
+::before
+::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 750px;
+    background-color: rgb(34, 57, 99);
+}

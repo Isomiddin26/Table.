@@ -1,0 +1,35 @@
+*
+::before
+::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 750px;
+  background-color: #223963;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: #ffb050;
+}
+
+td {
+  border: 2px solid #000000;
+  padding: 15px 30px;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
